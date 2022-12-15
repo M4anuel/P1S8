@@ -25,7 +25,7 @@ public class Activity implements Comparable<Activity> {
 	}
 
 	public String toString() {
-		return "Aktivität [" + name + ", Start=" + startTime + ", Ende=" + endTime + "]";
+		return "Aktivität " + name + ": Start=" + startTime + ", Ende=" + endTime;
 	}
 	
 	public int compareTo(Activity o) {

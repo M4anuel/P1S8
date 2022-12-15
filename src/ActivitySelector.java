@@ -33,8 +33,17 @@ public class ActivitySelector {
 	 * Rekursiver Algorithmus zur Aktivitätenauswahl
 	 */
 	private static ArrayList<Activity> activitySelection(Activity[] activities, int k, int n) {
-		// TODO: Implementiere den Algorithmus zur Aktivitätenauswahl
-		return null; // Platzhalter, muss ersetzt werden
+		ArrayList<Activity> acti = new ArrayList<>();
+		int m = k + 1;
+		while (m < n && activities[m].getStartTime() < activities[k].getEndTime()) {
+			m = m + 1;
+		}
+		if (m < n){
+			acti.add(activities[m]);
+			acti.addAll(activitySelection(activities,m , n));
+			return acti;
+		}
+		return acti;
 	}
 
 }

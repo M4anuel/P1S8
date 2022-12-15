@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="90dc3981-1df3-4365-b121-6e2da2b6ea2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Activity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ActivitySelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BagTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P1_Serie8.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fibonacci.java" afterDir="false" />
+    <list default="true" id="90dc3981-1df3-4365-b121-6e2da2b6ea2f" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivitySelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivitySelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +35,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/manue/OneDrive/Dokumente/_Uni/Informatik/Programmieren1/P1S7/src"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\manue\OneDrive\Dokumente\_Uni\Informatik\Programmieren1\P1S7\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.fibonacci">
+  <component name="RunManager" selected="Application.ActivitySelector">
+    <configuration name="ActivitySelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ActivitySelector" />
+      <module name="P1S7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BagTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BagTest" />
       <module name="P1S7" />
@@ -64,6 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActivitySelector" />
         <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.BagTest" />
       </list>
@@ -94,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
